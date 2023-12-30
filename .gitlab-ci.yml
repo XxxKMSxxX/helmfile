@@ -1,7 +1,7 @@
 stages:
 - build
 
-build-helmfile-image:
+build-image:
   stage: build
   image:
     name: registry.cern.ch/gcr.io/kaniko-project/executor:debug
